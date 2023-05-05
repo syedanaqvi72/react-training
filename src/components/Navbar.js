@@ -29,9 +29,9 @@ export default function Navbar(props) {
     </div>
   )
 }
-Navbar.propTypes= { title:PropTypes.string,
+Navbar.propTypes= { title:PropTypes.string.isRequired,
                      about:PropTypes.string}
 Navbar.defaultProps= {
     title:' set title here',
-    abouttext :'about text here'
+    aboutText :'about text here'
 };
