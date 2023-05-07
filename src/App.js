@@ -7,10 +7,11 @@ function App() {
   <> 
 <Navbar title="Texting"  aboutText="About Texting"/>
 {/*<Navbar/>*/}
-<div className="container">
-<textArea/>
-</div>
-    </>
+<div className="container my.3">
+  
+<Textform  heading =" Enter the text to analysis"/> 
+</div>  
+ </>
   );
 }
 
