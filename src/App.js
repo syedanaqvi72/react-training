@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Textform from './components/TextForm';
-function App() {
+function App () {
   return ( 
   <> 
 <Navbar title="Texting"  aboutText="About Texting"/>
@@ -15,4 +15,3 @@ function App() {
   );
 }
 
-export default App;
